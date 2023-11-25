@@ -20,7 +20,7 @@ import { AppContext } from '../context/AppContext';
 
         dispatch({
             type: 'ADD_EXPENSE',
-            payload: ExpenseItem
+            payload: expense
         });
 
     }
